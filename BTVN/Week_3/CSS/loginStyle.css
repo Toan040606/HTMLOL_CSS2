@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+.align-box {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 360px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.box h2 {
+    padding-bottom: 24px;
+}
+
+.Nhap {
+    padding-bottom: 24px;
+}
+
+.vao label {
+    color: black;
+}
+
+.vao input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #3851df;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 10px;
+}

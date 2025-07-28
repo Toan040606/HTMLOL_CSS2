@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 200px;
+    background: linear-gradient(135deg, #8e44ad, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI, sans-serif;
+}
+
+.mybio {
+    background-color: rgba(230, 217, 217, 0.15);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 25px;
+    color: red;
+}
+
+.title {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.description {
+    font-size: 13px;
+    color: #000000;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: white;
+    color: rgb(29, 25, 25);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    opacity: 0.8;
+}
