@@ -19,8 +19,8 @@ body {
     background-color: white;
     border-radius: 15px;
     padding: 20px;
-    width: 360px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(2, 1, 7, 0.6);
 }
 
 .box h2 {
@@ -28,7 +28,7 @@ body {
 }
 
 .Nhap {
-    padding-bottom: 24px;
+    padding-bottom: 10px;
 }
 
 .vao label {
