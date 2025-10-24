@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>This is a paragraph</p>
+
+    <a href="https://google.com" target="_blank">Google</a>
+
+    <p></p>
+
+    <h1>Đưa hình ảnh lên như này</h1>
+    <img
+        src="https://i.pinimg.com/originals/85/97/43/8597430660c7fec44b74cb3e695e7554.jpg"
+        alt="HEHE"
+        width="500"
+        height="500"
+    />
+    <p>Nếu link sai thì thuộc tính alt sẽ hoạt động</p>
+    <img
+        src="https://i.pinimg.com/originals/85/97/43/8597430660c7fec44b74cb3e695e7554a.jpg"
+        alt="HEHE"
+        width="500"
+        height="500"
+    />
+
+    <h1>Danh sách Item</h1>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h1>Danh sách Item được sắp xếp theo thứ tự</h1>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h1>Bảng</h1>
+    <table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    </table>
+
+    <h2>Thuộc tính border giúp bảng có đường kẻ giới hạn của từng ô</h2>
+    <table border="1">
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    </table>
+
+    <h2>Thuộc tính (style="border-collapse: collapse;") với border giúp bảng có đường kẻ thẳng đẹp hơn</h2>
+    <table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    </table>
+
+    <h2>Thuộc tính cellspacing="number" cùng với border giúp tăng khoảng cách giữa các chữ </h2>
+    <table border="1" cellspacing="15">
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    </table>
+
+    <h2>Bảng được ghép hàng bằng thuộc tính colspan</h2>
+    <table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>43</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>57</td>
+    </tr>
+    </table>
+
+    <h2>Bảng được ghép cột bằng thuộc tính rowspan</h2>
+    <table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th>Name</th>
+        <td>Jill</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Phone</th>
+        <td>555-1234</td>
+    </tr>
+    <tr>
+        <td>555-8745</td>
+    </tr>
+    </table>
+
+    <h1>Điền thông tin vào vùng</h1>
+    <h2>Với type="text" sẽ tạo 1 ô để điền thông tin</h2>
+    <h2>
+        Với id thì sẽ tăng trải nghiệm người dùng
+        Ấn vào chữ ở trên ô cho phép điền thông tin ở cái ô luôn chứ kp là bôi đen nữa
+    </h2>
+    <form>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" />
+    </form>
+
+    <h2>Với type="passworld" giúp ẩn thông tin mình vừa ghi</h2>
+    <form>
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <label for="pwd">Password:</label><br />
+        <input type="password" id="pwd" name="pwd" />
+    </form>
+
+    <h2>
+        Với type="radio" giúp chọn 1 trong những thông tin được liệt kê ra
+
+        Nhưng thật ra việc chọn 1 hay nhiều thông tin được liệt kê ra sẽ là do 
+        thuộc tính name nếu giá trị của name khác nhau thì sẽ được chọn nhiều
+        nhưng với type="radio" thì sẽ không thể bỏ chọn được những thông tin mình
+        đã chọn nên khái niệm trên là hợp lý
+    </h2>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">CSS</label><br />
+        <input
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+        />
+        <label for="javascript">JavaScript</label>
+    </form>
+
+    <h2>Với type="checkbox" thì sẽ chọn được nhiều thông tin và có thể bỏ chọn thông tin mình không muốn</h2>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> I have a boat</label>
+    </form>
+
+    <h1>Chọn 1 thông tin từ 1 hộp danh sách những thông tin khi ấn vào hộp danh sách</h1>
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <h1>Hộp văn bản cho phép ghi thông tin vào</h1>
+    <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+
+    <h1>Một cái nút bấm</h1>
+    <Click type="button">Click Me!</button>
+
+    <h1>Một vùng văn bản được tô background đằng sau</h1>
+    <div style="background-color: #f18989">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>London has over 13 million inhabitants.</p>
+    </div>
+    
+</body>
+</html>

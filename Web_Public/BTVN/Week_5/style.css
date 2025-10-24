@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+header .contact {
+    text-align: right;
+    font-size: 14px;
+    color: #e94e1b;
+}
+
+header .account {
+    font-size: 14px;
+    color: #555;
+}
+
+.categories {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.categories h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.food {
+    margin: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.food p {
+    font-weight: bold;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #e94e1b;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 5px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    background-color: #e94e1b;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sale-badge {
+    background: #e94e1b;
+    color: white;
+    padding: 4px 8px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
