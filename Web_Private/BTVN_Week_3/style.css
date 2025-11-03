@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 44, 44);
+    padding: 17vh 38vw;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.774);
+}
+
+.img-container {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 5vw;
+}
+
+.box-container {
+    width: 22vw;
+    background-color: rgb(75, 70, 70);
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.content {
+    margin-top: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.job {
+    padding-top: 10px;
+    font-size: large;
+    color: rgb(168, 90, 1);
+}
+
+.description {
+    padding-top: 10px;
+}
+
+a {
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 50%;
+    padding: 7px;
+    color: black;
+}
+
+i {
+    color: black;
+}
+
+.links {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+}
