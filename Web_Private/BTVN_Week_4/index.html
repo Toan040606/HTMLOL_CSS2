@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="image"><img src="./source/product.png" alt="Product"></div>
+        <div class="information">
+            <h2 class="product-name">Sản phẩm A</h2>
+            <p class="product-description">Đây là mô tả của sản phẩm A. Nó rất tuyệt vời</p>
+            <p class="product-price">$49.99</p>
+        </div>
+        <div class="star-rating">
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+            <div class="star"><i class="fa-solid fa-star"></i></div>
+            <div class="star"><i class="fa-solid fa-star"></i></div> <br>
+            <div class="rating"><p>4.0 (120 đánh giá)</p></div>
+        </div>
+        <div class="category">
+            <div class="tag"><i class="fa-solid fa-tags"></i> Hàng mới</div>
+            <div class="tag"><i class="fa-solid fa-star"></i> Phổ biến</div>
+            <div class="tag"><i class="fa-solid fa-gift"></i> Khuyến mãi</div>
+            <div class="tag"><i class="fa-solid fa-thumbs-up"></i> Được yêu thích</div>
+            <div class="tag"><i class="fa-solid fa-recycle"></i> Bền vững</div>
+            <div class="tag"><i class="fa-solid fa-user-shield"></i> Bảo hành 1 năm</div>
+        </div> <br>
+        <form class="shopping-cart">
+            <button onclick="window.open('https://www.youtube.com/watch?v=dQpBjEk988o', '_blank')"  class="add-to-shopping-cart" type="button"><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+        </form> <br>
+        <div class="detail-informations">
+            <div class="header"><h3>Thông tin chi tiết: </h3></div>
+            <ul class="detail-list">
+                <li>
+                    <p>Chất liệu: Vải cotton</p>
+                </li>
+                <li>
+                    <p>Màu sắc: Đỏ, Xanh, Vàng</p>
+                </li>
+                <li>
+                    <p>Kích thước: S, M, L, XL</p>
+                </li>
+                <li>
+                    <p>Thương hiệu: Thương hiệu X</p>
+                </li>
+            </ul>
+        </div> <br>
+        <div class="additional-infomations">
+            <div class="header">
+                <h3>Thông tin bổ sung:</h3>
+            </div>
+            <div class="additional-tags">
+                <div class="tag">
+                    <p><i class="fa-solid fa-money-bill-1-wave"></i> Thanh toán an toàn</p>
+                </div>
+                <div class="tag">
+                    <p><i class="fa-solid fa-headset"></i> Hỗ trợ khách hàng 24/7</p>
+                </div>
+                <div class="tag">
+                    <p><i class="fa-solid fa-user-shield"></i> Đảm bảo an toàn thông tin</p>
+                </div>
+                <div class="tag">
+                    <p><i class="fa-solid fa-bag-shopping"></i> Cam kết chất lượng</p>
+                </div>
+                <div class="tag">
+                    <p><i class="fa-solid fa-arrows-rotate"></i> Đổi trả trong 30 ngày</p>
+                </div>
+            </div>
+        </div> <br>
+        <div class="special-features">
+            <h3 class="header">Tính năng nổi bật: </h3>
+            <p><i class="fa-solid fa-circle-check"></i> Thiết kế hiện đại</p>
+            <p><i class="fa-solid fa-circle-check"></i> Dễ dàng bảo quản</p>
+            <p><i class="fa-solid fa-circle-check"></i> Thích hợp cho mọi dịp</p>
+            <p><i class="fa-solid fa-circle-check"></i> Khả năng thấm hút tốt</p>
+        </div> <br>
+        <div class="user-guides">
+            <h3 class="header">Hướng dẫn sử dụng: </h3>
+            <p>Để đảm bảo sản phẩm luôn trong tình trạng tốt nhất, hãy làm theo các bước sau: </p> <br>
+            <p><i class="fa-solid fa-wrench"></i> Giặt ở nhiệt độ thấp</p>
+            <p><i class="fa-solid fa-sun"></i> Tránh ánh năng mặt trời trực tiếp</p>
+            <p><i class="fa-solid fa-umbrella"></i> Bảo quản nơi khô ráo</p>
+        </div> <br>
+        <div class="most-special-features">
+            <h3 class="header">Tính năng đặc biệt: </h3>
+            <p><i class="fa-solid fa-star"></i> Công nghệ chống nhăn</p>
+            <p><i class="fa-solid fa-star"></i> Vải thoáng khí</p>
+            <p><i class="fa-solid fa-star"></i> Thiết kế bền vững</p>
+        </div> <br>
+        <div class="product-sharing">
+            <h3 class="header">Chia sẻ sản phẩm: </h3>
+            <form class="social-media">
+                <button onclick="window.open('https://www.youtube.com/watch?v=dQpBjEk988o', '_blank')" id="facebook"><i class="fa-brands fa-facebook-f"></i>Facebook</button>
+                <button onclick="window.open('https://www.youtube.com/watch?v=dQpBjEk988o', '_blank')" id="twitter"><i class="fa-brands fa-twitter"></i>Twitter</button>
+                <button onclick="window.open('https://www.youtube.com/watch?v=dQpBjEk988o', '_blank')" id="instagram"><i class="fa-brands fa-instagram"></i>Instagram</button>
+            </form>
+        </div> <br>
+        <form class="product-rating">
+            <h3 class="header">Đánh giá sản phẩm: </h3>
+            <textarea name="text" placeholder="Nhập đánh giá của bạn....."></textarea> <br>
+            <button onclick="window.open('https://www.youtube.com/watch?v=dQpBjEk988o', '_blank')" type="submit">Gửi đánh giá</button>
+        </form>
+    </div><br> <br>
+    <div class="related-products">
+        <h2>Sản phẩm liên quan</h2>
+        <div class="container" onclick="window.open('https://www.youtube.com/watch?v=dQpBjEk988o', '_blank')" >
+            <div class="related-image">
+                <img class="image" src="./source/product.png" alt="image">
+            </div>
+            <div id="information">
+                <p id="product-name">Sản phẩm B</p>
+                <p id="product-price">$39.99</p>
+            </div>
+        </div>
+        <div class="container" onclick="window.open('https://www.youtube.com/watch?v=dQpBjEk988o', '_blank')" >
+            <div class="related-image">
+                <img class="image" src="./source/product.png" alt="image">
+            </div>
+            <div id="information">
+                <p id="product-name">Sản phẩm C</p>
+                <p id="product-price">$29.99</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
