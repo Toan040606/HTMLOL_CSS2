@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    background-color: #4E4441;
+    font-weight: 550;
+}
+
+.category {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    border-radius: 24px;
+    padding: 13px 26px 13px 26px;
+    border: none;
+    background-color: #F9C06A;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+header a{
+    color: #FFFFFF !important;
+}
+
+.logo {
+    font-size: 27px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    padding: 95px 93px 95px 93px;
+}
+
+.first {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Resource/coffee_image.png') no-repeat center center / cover;
+}
+
+.first .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-container .content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.content p {
+    font-size: 22px;
+}
+
+.content img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.second .section-container {
+    display: flex;
+    width: auto;
+    height: 564px;
+    align-items: center;
+    justify-content: center;
+}
+
+.second .left {
+    width: 50%;
+}
+
+.left h1 {
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.left p {
+    font-size: 20px;
+    color: #707070;
+    line-height: 34px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.third .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.quality-header, .quality-content, .quality {
+    text-align: center;
+}
+
+.quality-moment {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.quality-header h1 {
+    color: #603809;
+    margin-bottom: 20px;
+}
+
+.quality-header p {
+    color: #707070;
+}
