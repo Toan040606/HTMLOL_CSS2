@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #EFF6FF;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15%;
+    width: 100%;
+    max-width: 480px;
+    box-shadow:  0 10px 25px -5px rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.2rem;
+}
+
+.headerAndInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h2{
+    margin-bottom: 20px;
+    color: #1f2937;
+    letter-spacing: 0.01em;
+}
+
+.input input {
+    width: 380px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+}
+
+.input button {
+    width: 380px;
+    background-color: #3B82F6;
+    border-style: none;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 14px 16px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.list h6 {
+    color: #6b7280;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+}
+
+.header h2, .list h6, .addToList {
+    font-weight: 750;
+}
