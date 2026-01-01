@@ -69,3 +69,7 @@ body {
 .header h2, .list h6, .addToList {
     font-weight: 750;
 }
+
+ul {
+    list-style: none;
+}
